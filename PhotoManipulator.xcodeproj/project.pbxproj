@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		581FF7141BE83349005BDE2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FF7131BE83349005BDE2F /* AppDelegate.swift */; };
-		581FF7161BE83349005BDE2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FF7151BE83349005BDE2F /* ViewController.swift */; };
 		581FF7191BE83349005BDE2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581FF7171BE83349005BDE2F /* Main.storyboard */; };
 		581FF71C1BE83349005BDE2F /* PhotoManipulator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 581FF71A1BE83349005BDE2F /* PhotoManipulator.xcdatamodeld */; };
 		581FF71E1BE83349005BDE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581FF71D1BE83349005BDE2F /* Assets.xcassets */; };
 		581FF7211BE83349005BDE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581FF71F1BE83349005BDE2F /* LaunchScreen.storyboard */; };
 		581FF72C1BE83349005BDE2F /* PhotoManipulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FF72B1BE83349005BDE2F /* PhotoManipulatorTests.swift */; };
 		581FF7371BE83349005BDE2F /* PhotoManipulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FF7361BE83349005BDE2F /* PhotoManipulatorUITests.swift */; };
+		581FF7451BE8371A005BDE2F /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FF7441BE8371A005BDE2F /* MainTableViewController.swift */; };
+		581FF7471BE83728005BDE2F /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FF7461BE83728005BDE2F /* MainTableViewCell.swift */; };
+		581FF74A1BE8442A005BDE2F /* PhotoModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FF7481BE8442A005BDE2F /* PhotoModel+CoreDataProperties.swift */; };
+		581FF74B1BE8442A005BDE2F /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FF7491BE8442A005BDE2F /* PhotoModel.swift */; };
+		581FF74F1BE852E0005BDE2F /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FF74E1BE852E0005BDE2F /* PhotoStore.swift */; };
+		581FF7511BE85E0E005BDE2F /* CreatePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FF7501BE85E0E005BDE2F /* CreatePhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		581FF7101BE83349005BDE2F /* PhotoManipulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoManipulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		581FF7131BE83349005BDE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		581FF7151BE83349005BDE2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		581FF7181BE83349005BDE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		581FF71B1BE83349005BDE2F /* PhotoManipulator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoManipulator.xcdatamodel; sourceTree = "<group>"; };
 		581FF71D1BE83349005BDE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		581FF7321BE83349005BDE2F /* PhotoManipulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoManipulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		581FF7361BE83349005BDE2F /* PhotoManipulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManipulatorUITests.swift; sourceTree = "<group>"; };
 		581FF7381BE83349005BDE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581FF7441BE8371A005BDE2F /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		581FF7461BE83728005BDE2F /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		581FF7481BE8442A005BDE2F /* PhotoModel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		581FF7491BE8442A005BDE2F /* PhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		581FF74E1BE852E0005BDE2F /* PhotoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoStore.swift; path = ../PhotoStore.swift; sourceTree = "<group>"; };
+		581FF7501BE85E0E005BDE2F /* CreatePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,18 @@
 		581FF7121BE83349005BDE2F /* PhotoManipulator */ = {
 			isa = PBXGroup;
 			children = (
+				581FF74E1BE852E0005BDE2F /* PhotoStore.swift */,
 				581FF7131BE83349005BDE2F /* AppDelegate.swift */,
-				581FF7151BE83349005BDE2F /* ViewController.swift */,
 				581FF7171BE83349005BDE2F /* Main.storyboard */,
+				581FF7481BE8442A005BDE2F /* PhotoModel+CoreDataProperties.swift */,
+				581FF7491BE8442A005BDE2F /* PhotoModel.swift */,
 				581FF71D1BE83349005BDE2F /* Assets.xcassets */,
 				581FF71F1BE83349005BDE2F /* LaunchScreen.storyboard */,
 				581FF7221BE83349005BDE2F /* Info.plist */,
 				581FF71A1BE83349005BDE2F /* PhotoManipulator.xcdatamodeld */,
+				581FF7441BE8371A005BDE2F /* MainTableViewController.swift */,
+				581FF7461BE83728005BDE2F /* MainTableViewCell.swift */,
+				581FF7501BE85E0E005BDE2F /* CreatePhotoViewController.swift */,
 			);
 			path = PhotoManipulator;
 			sourceTree = "<group>";
@@ -262,9 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				581FF74B1BE8442A005BDE2F /* PhotoModel.swift in Sources */,
 				581FF71C1BE83349005BDE2F /* PhotoManipulator.xcdatamodeld in Sources */,
-				581FF7161BE83349005BDE2F /* ViewController.swift in Sources */,
+				581FF7451BE8371A005BDE2F /* MainTableViewController.swift in Sources */,
+				581FF74F1BE852E0005BDE2F /* PhotoStore.swift in Sources */,
+				581FF7471BE83728005BDE2F /* MainTableViewCell.swift in Sources */,
+				581FF74A1BE8442A005BDE2F /* PhotoModel+CoreDataProperties.swift in Sources */,
 				581FF7141BE83349005BDE2F /* AppDelegate.swift in Sources */,
+				581FF7511BE85E0E005BDE2F /* CreatePhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
