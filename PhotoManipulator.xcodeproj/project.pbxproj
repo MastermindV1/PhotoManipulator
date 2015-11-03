@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		581FF7141BE83349005BDE2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FF7131BE83349005BDE2F /* AppDelegate.swift */; };
+		581FF7161BE83349005BDE2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FF7151BE83349005BDE2F /* ViewController.swift */; };
+		581FF7191BE83349005BDE2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581FF7171BE83349005BDE2F /* Main.storyboard */; };
+		581FF71C1BE83349005BDE2F /* PhotoManipulator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 581FF71A1BE83349005BDE2F /* PhotoManipulator.xcdatamodeld */; };
+		581FF71E1BE83349005BDE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581FF71D1BE83349005BDE2F /* Assets.xcassets */; };
+		581FF7211BE83349005BDE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581FF71F1BE83349005BDE2F /* LaunchScreen.storyboard */; };
+		581FF72C1BE83349005BDE2F /* PhotoManipulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FF72B1BE83349005BDE2F /* PhotoManipulatorTests.swift */; };
+		581FF7371BE83349005BDE2F /* PhotoManipulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FF7361BE83349005BDE2F /* PhotoManipulatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		581FF7281BE83349005BDE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581FF7081BE83349005BDE2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581FF70F1BE83349005BDE2F;
+			remoteInfo = PhotoManipulator;
+		};
+		581FF7331BE83349005BDE2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581FF7081BE83349005BDE2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581FF70F1BE83349005BDE2F;
+			remoteInfo = PhotoManipulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		581FF7101BE83349005BDE2F /* PhotoManipulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoManipulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		581FF7131BE83349005BDE2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		581FF7151BE83349005BDE2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		581FF7181BE83349005BDE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		581FF71B1BE83349005BDE2F /* PhotoManipulator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoManipulator.xcdatamodel; sourceTree = "<group>"; };
+		581FF71D1BE83349005BDE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		581FF7201BE83349005BDE2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		581FF7221BE83349005BDE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581FF7271BE83349005BDE2F /* PhotoManipulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoManipulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		581FF72B1BE83349005BDE2F /* PhotoManipulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManipulatorTests.swift; sourceTree = "<group>"; };
+		581FF72D1BE83349005BDE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581FF7321BE83349005BDE2F /* PhotoManipulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoManipulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		581FF7361BE83349005BDE2F /* PhotoManipulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManipulatorUITests.swift; sourceTree = "<group>"; };
+		581FF7381BE83349005BDE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		581FF70D1BE83349005BDE2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581FF7241BE83349005BDE2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581FF72F1BE83349005BDE2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		581FF7071BE83349005BDE2F = {
+			isa = PBXGroup;
+			children = (
+				581FF7121BE83349005BDE2F /* PhotoManipulator */,
+				581FF72A1BE83349005BDE2F /* PhotoManipulatorTests */,
+				581FF7351BE83349005BDE2F /* PhotoManipulatorUITests */,
+				581FF7111BE83349005BDE2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		581FF7111BE83349005BDE2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				581FF7101BE83349005BDE2F /* PhotoManipulator.app */,
+				581FF7271BE83349005BDE2F /* PhotoManipulatorTests.xctest */,
+				581FF7321BE83349005BDE2F /* PhotoManipulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		581FF7121BE83349005BDE2F /* PhotoManipulator */ = {
+			isa = PBXGroup;
+			children = (
+				581FF7131BE83349005BDE2F /* AppDelegate.swift */,
+				581FF7151BE83349005BDE2F /* ViewController.swift */,
+				581FF7171BE83349005BDE2F /* Main.storyboard */,
+				581FF71D1BE83349005BDE2F /* Assets.xcassets */,
+				581FF71F1BE83349005BDE2F /* LaunchScreen.storyboard */,
+				581FF7221BE83349005BDE2F /* Info.plist */,
+				581FF71A1BE83349005BDE2F /* PhotoManipulator.xcdatamodeld */,
+			);
+			path = PhotoManipulator;
+			sourceTree = "<group>";
+		};
+		581FF72A1BE83349005BDE2F /* PhotoManipulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				581FF72B1BE83349005BDE2F /* PhotoManipulatorTests.swift */,
+				581FF72D1BE83349005BDE2F /* Info.plist */,
+			);
+			path = PhotoManipulatorTests;
+			sourceTree = "<group>";
+		};
+		581FF7351BE83349005BDE2F /* PhotoManipulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				581FF7361BE83349005BDE2F /* PhotoManipulatorUITests.swift */,
+				581FF7381BE83349005BDE2F /* Info.plist */,
+			);
+			path = PhotoManipulatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		581FF70F1BE83349005BDE2F /* PhotoManipulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581FF73B1BE83349005BDE2F /* Build configuration list for PBXNativeTarget "PhotoManipulator" */;
+			buildPhases = (
+				581FF70C1BE83349005BDE2F /* Sources */,
+				581FF70D1BE83349005BDE2F /* Frameworks */,
+				581FF70E1BE83349005BDE2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoManipulator;
+			productName = PhotoManipulator;
+			productReference = 581FF7101BE83349005BDE2F /* PhotoManipulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		581FF7261BE83349005BDE2F /* PhotoManipulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581FF73E1BE83349005BDE2F /* Build configuration list for PBXNativeTarget "PhotoManipulatorTests" */;
+			buildPhases = (
+				581FF7231BE83349005BDE2F /* Sources */,
+				581FF7241BE83349005BDE2F /* Frameworks */,
+				581FF7251BE83349005BDE2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				581FF7291BE83349005BDE2F /* PBXTargetDependency */,
+			);
+			name = PhotoManipulatorTests;
+			productName = PhotoManipulatorTests;
+			productReference = 581FF7271BE83349005BDE2F /* PhotoManipulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		581FF7311BE83349005BDE2F /* PhotoManipulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 581FF7411BE83349005BDE2F /* Build configuration list for PBXNativeTarget "PhotoManipulatorUITests" */;
+			buildPhases = (
+				581FF72E1BE83349005BDE2F /* Sources */,
+				581FF72F1BE83349005BDE2F /* Frameworks */,
+				581FF7301BE83349005BDE2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				581FF7341BE83349005BDE2F /* PBXTargetDependency */,
+			);
+			name = PhotoManipulatorUITests;
+			productName = PhotoManipulatorUITests;
+			productReference = 581FF7321BE83349005BDE2F /* PhotoManipulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		581FF7081BE83349005BDE2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Mohanad;
+				TargetAttributes = {
+					581FF70F1BE83349005BDE2F = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = RD3TJRGTCR;
+					};
+					581FF7261BE83349005BDE2F = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = RD3TJRGTCR;
+						TestTargetID = 581FF70F1BE83349005BDE2F;
+					};
+					581FF7311BE83349005BDE2F = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = RD3TJRGTCR;
+						TestTargetID = 581FF70F1BE83349005BDE2F;
+					};
+				};
+			};
+			buildConfigurationList = 581FF70B1BE83349005BDE2F /* Build configuration list for PBXProject "PhotoManipulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 581FF7071BE83349005BDE2F;
+			productRefGroup = 581FF7111BE83349005BDE2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				581FF70F1BE83349005BDE2F /* PhotoManipulator */,
+				581FF7261BE83349005BDE2F /* PhotoManipulatorTests */,
+				581FF7311BE83349005BDE2F /* PhotoManipulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		581FF70E1BE83349005BDE2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581FF7211BE83349005BDE2F /* LaunchScreen.storyboard in Resources */,
+				581FF71E1BE83349005BDE2F /* Assets.xcassets in Resources */,
+				581FF7191BE83349005BDE2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581FF7251BE83349005BDE2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581FF7301BE83349005BDE2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		581FF70C1BE83349005BDE2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581FF71C1BE83349005BDE2F /* PhotoManipulator.xcdatamodeld in Sources */,
+				581FF7161BE83349005BDE2F /* ViewController.swift in Sources */,
+				581FF7141BE83349005BDE2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581FF7231BE83349005BDE2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581FF72C1BE83349005BDE2F /* PhotoManipulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581FF72E1BE83349005BDE2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581FF7371BE83349005BDE2F /* PhotoManipulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		581FF7291BE83349005BDE2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581FF70F1BE83349005BDE2F /* PhotoManipulator */;
+			targetProxy = 581FF7281BE83349005BDE2F /* PBXContainerItemProxy */;
+		};
+		581FF7341BE83349005BDE2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581FF70F1BE83349005BDE2F /* PhotoManipulator */;
+			targetProxy = 581FF7331BE83349005BDE2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		581FF7171BE83349005BDE2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				581FF7181BE83349005BDE2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		581FF71F1BE83349005BDE2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				581FF7201BE83349005BDE2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		581FF7391BE83349005BDE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		581FF73A1BE83349005BDE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		581FF73C1BE83349005BDE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoManipulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mofi.PhotoManipulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		581FF73D1BE83349005BDE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoManipulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mofi.PhotoManipulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		581FF73F1BE83349005BDE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoManipulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mofi.PhotoManipulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoManipulator.app/PhotoManipulator";
+			};
+			name = Debug;
+		};
+		581FF7401BE83349005BDE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoManipulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mofi.PhotoManipulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoManipulator.app/PhotoManipulator";
+			};
+			name = Release;
+		};
+		581FF7421BE83349005BDE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoManipulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mofi.PhotoManipulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoManipulator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		581FF7431BE83349005BDE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoManipulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mofi.PhotoManipulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoManipulator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		581FF70B1BE83349005BDE2F /* Build configuration list for PBXProject "PhotoManipulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581FF7391BE83349005BDE2F /* Debug */,
+				581FF73A1BE83349005BDE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		581FF73B1BE83349005BDE2F /* Build configuration list for PBXNativeTarget "PhotoManipulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581FF73C1BE83349005BDE2F /* Debug */,
+				581FF73D1BE83349005BDE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		581FF73E1BE83349005BDE2F /* Build configuration list for PBXNativeTarget "PhotoManipulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581FF73F1BE83349005BDE2F /* Debug */,
+				581FF7401BE83349005BDE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		581FF7411BE83349005BDE2F /* Build configuration list for PBXNativeTarget "PhotoManipulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581FF7421BE83349005BDE2F /* Debug */,
+				581FF7431BE83349005BDE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		581FF71A1BE83349005BDE2F /* PhotoManipulator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				581FF71B1BE83349005BDE2F /* PhotoManipulator.xcdatamodel */,
+			);
+			currentVersion = 581FF71B1BE83349005BDE2F /* PhotoManipulator.xcdatamodel */;
+			path = PhotoManipulator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 581FF7081BE83349005BDE2F /* Project object */;
+}
